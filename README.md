@@ -1,7 +1,10 @@
 # 🧑‍💻 Prakadeesh K S - Developer Portfolio
 
-Welcome to my personal portfolio website!  
-This site showcases my skills, projects, and contact information — all in a responsive, modern UI built with **React**, **Tailwind CSS**, and **Vite**.
+
+![Demo](public/demo.gif)
+
+### Welcome to my personal portfolio website!  
+### This site showcases my skills, projects, and contact information — all in a responsive, modern UI built with **React**, **Tailwind ### CSS**, ## and **Vite**.
 
 ## 🌐 Live Demo
 

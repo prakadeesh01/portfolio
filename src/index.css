@@ -1,0 +1,24 @@
+@import 'devicon/devicon.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Augustina';
+  src: url('font/augustina.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+:target {
+  scroll-margin-top: 100px; /* Adjust based on your navbar height */
+}
+
+html {
+  scroll-behavior: smooth;
+}

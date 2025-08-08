@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Augustina';
-  src: url('font/augustina.woff') format('truetype');
+  src: url('/font/augustina.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

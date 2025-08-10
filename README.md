@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-🔗 Live Site: [https://portfolio-prakadeeshs-projects.vercel.app](https://portfolio-prakadeeshs-projects.vercel.app)
+🔗 Live Site: [https://prakadeesh-portfolio.vercel.app/](https://prakadeesh-portfolio.vercel.app/)
 
 ## 🚀 Tech Stack
 

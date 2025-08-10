@@ -85,7 +85,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="misc/resume.pdf"
+              href="misc/prakadeesh_aiml_resume.pdf"
               download
               className="px-6 py-3 text-center rounded-xl font-semibold text-white bg-[#55198b] border-2 border-[#55198b] hover:bg-white hover:text-[#55198b] transition duration-300"
             >

@@ -32,7 +32,7 @@ const About = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-thin mb-6">Let's Get Acquainted</h2>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            Hey! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh</span> — 
+            Hey! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh</span> - 
             a CS grad now doing my MSc in Data Science at the University of Surrey.
           </p>
 

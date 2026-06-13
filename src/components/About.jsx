@@ -32,32 +32,22 @@ const About = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-thin mb-6">Let's Get Acquainted</h2>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            Hello! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh K S</span>,
-            an <span className="font-semibold text-accent-light dark:text-accent-dark">MSc Data Science</span> student
-            at the <span className="font-semibold">University of Surrey</span>, and a Computer Science and Engineering
-            graduate from RMK College of Engineering and Technology.
+            Hey! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh</span> — 
+            a CS grad now doing my MSc in Data Science at the University of Surrey.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            My journey started with a deep interest in <span className="font-semibold text-accent-light dark:text-accent-dark">NLP</span> —
-            working through the ML, Deep Learning, and TensorFlow specializations, then going deep into
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> PyTorch</span> and the
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> Hugging Face ecosystem</span>.
-            As Generative AI reshaped the field, I followed naturally — building
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> LLM-powered applications</span>,
-            RAG pipelines, and working extensively with LangChain and LlamaIndex.
+            I got into AI through a deep interest in <span className="font-semibold text-accent-light dark:text-accent-dark">NLP</span> - 
+            spent a lot of time with PyTorch, the <span className="font-semibold text-accent-light dark:text-accent-dark">Hugging Face</span> ecosystem, 
+            and working through the major deep learning specializations. As Generative AI took off, 
+            I followed naturally - building with <span className="font-semibold text-accent-light dark:text-accent-dark">LLMs</span>, 
+            RAG pipelines, LangChain, and LlamaIndex.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            In parallel, I've explored <span className="font-semibold text-accent-light dark:text-accent-dark">Computer Vision</span> —
-            building an end-to-end spatio-temporal action localisation system using VideoMAE and a DETR-style decoder —
-            and <span className="font-semibold text-accent-light dark:text-accent-dark">Reinforcement Learning</span>,
-            with a rigorous study comparing DQN and DDQN agents on LunarLander.
-          </p>
-
-          <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I'm currently diving into <span className="font-semibold text-accent-light dark:text-accent-dark">LangGraph</span> and
-            agentic AI — the next frontier I'm excited to build in.
+            Along the way I've picked up <span className="font-semibold text-accent-light dark:text-accent-dark">Computer Vision</span> and 
+            <span className="font-semibold text-accent-light dark:text-accent-dark"> Reinforcement Learning</span> - 
+            and right now I'm diving into <span className="font-semibold text-accent-light dark:text-accent-dark">LangGraph</span> and agentic systems.
           </p>
 
         </motion.div>

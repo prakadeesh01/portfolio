@@ -26,9 +26,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base sm:text-lg md:text-2xl text-text-light dark:text-text-dark leading-[1.4rem] md:leading-[2rem]">
-            Aspiring AI/ML Engineer · MSc Data Science @ University of Surrey
-            <span className="hidden md:inline"><br /></span>
-            Passionate about NLP, Generative AI, and intelligent systems —
+            Passionate about NLP, Generative AI, and intelligent systems -
             <span className="hidden md:inline"><br /></span>
             from transformers and RAG pipelines to video models and agents.
           </p>

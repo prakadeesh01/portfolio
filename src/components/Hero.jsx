@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { MdEmail } from 'react-icons/md';
 
-
 const Hero = () => {
   return (
     <section
@@ -17,24 +16,26 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
-          <h1 className="text-text-light dark:text-text-dark text-3xl sm:text-4xl md:text-6xl font-normal leading-tight mb-6">
+          <h1 className="text-text-light dark:text-text-dark text-3xl sm:text-4xl md:text-6xl font-normal leading-tight mb-4">
             Hi, I'm Prakadeesh
             <span className="inline-block ml-2 animate-wave origin-[70%_70%]">👋</span>
           </h1>
 
-          <p className="text-base sm:text-lg md:text-2xl text-text-light dark:text-text-dark leading-[1.4rem] md:leading-[2rem]">
+          <p className="text-sm sm:text-base md:text-lg font-semibold text-accent-light dark:text-accent-dark mb-4 tracking-wide">
+            MSc Data Science · University of Surrey
+          </p>
 
-            I'm an NLP-focused AI developer 🤖 with strong experience
+          <p className="text-base sm:text-lg md:text-2xl text-text-light dark:text-text-dark leading-[1.4rem] md:leading-[2rem]">
+            AI/ML Engineer building across
             <span className="hidden md:inline"><br /></span>
-            in transformers and Hugging Face. My core strength lies in deep learning
+            <span className="font-semibold"> GenAI pipelines</span>,{' '}
+            <span className="font-semibold">video transformers</span>,{' '}
+            <span className="font-semibold">RL agents</span>, and
             <span className="hidden md:inline"><br /></span>
-            and building intelligent language systems. I also work with React
-            <span className="hidden md:inline"><br /></span>
-            and web technologies to deploy end-to-end ML applications efficiently.
+            <span className="font-semibold"> agentic AI systems</span>.
           </p>
 
           <div className="flex gap-4 mt-6 justify-center md:justify-start">
-            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/prakadeesh-k-s"
               target="_blank"
@@ -43,8 +44,6 @@ const Hero = () => {
             >
               <FaLinkedin className="text-white text-2xl" />
             </a>
-
-            {/* GitHub */}
             <a
               href="https://github.com/prakadeesh01"
               target="_blank"
@@ -53,8 +52,6 @@ const Hero = () => {
             >
               <FaGithub className="text-white text-2xl" />
             </a>
-
-            {/* Hugging Face */}
             <a
               href="https://huggingface.co/pragi007"
               target="_blank"
@@ -64,19 +61,17 @@ const Hero = () => {
               <img
                 src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png"
                 alt="Hugging Face"
-                className="w-10 h-10 "
+                className="w-10 h-10"
               />
             </a>
-
-            {/* Email */}
             <a
               href="mailto:prakadeesh01@gmail.com"
               className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center hover:scale-110 transition duration-300"
             >
               <MdEmail className="text-white text-2xl" />
             </a>
-
           </div>
+
           <div id="cv-section" className="mt-6 flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
             <a
               href="#contact"

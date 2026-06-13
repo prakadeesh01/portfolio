@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
-
 const About = () => {
   return (
     <section
@@ -16,14 +15,12 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.2 }}
           viewport={{ once: true }}>
-
           <img
             src="avatar/pic2.png"
             alt="Prakadeesh Avatar"
             className="w-full h-auto object-contain"
           />
         </motion.div>
-
 
         {/* Right - Text */}
         <motion.div className="flex-1 text-center md:text-left"
@@ -32,36 +29,39 @@ const About = () => {
           transition={{ duration: 1.2 }}
           viewport={{ once: true }}>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-thin mb-6">Let’s Get Acquainted</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-thin mb-6">Let's Get Acquainted</h2>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
             Hello! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh K S</span>,
-            a Computer Science and Engineering graduate from
-            <span className="font-semibold"> RMK College of Engineering and Technology</span>.
-            I'm passionate about building intelligent systems that solve real-world problems, and I love turning ideas into practical, deployable solutions.
+            an <span className="font-semibold text-accent-light dark:text-accent-dark">MSc Data Science</span> student at the
+            <span className="font-semibold"> University of Surrey</span>, and a Computer Science and Engineering graduate from
+            RMK College of Engineering and Technology. I'm passionate about building intelligent systems that solve real-world problems.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I have a strong foundation and hands-on experience in <span className="font-semibold text-accent-light dark:text-accent-dark">Natural Language Processing (NLP)</span>,
-            with a focus on <span className="font-semibold text-accent-light dark:text-accent-dark">transformers</span> and the 
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> Hugging Face ecosystem</span>. This is the space where I thrive the most.
+            My work spans four domains:{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">Generative AI & RAG pipelines</span>,{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">Computer Vision</span> (video transformers & action localisation),{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">Reinforcement Learning</span>, and{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">Agentic AI systems</span>.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I’m currently exploring the exciting world of <span className="font-semibold text-accent-light dark:text-accent-dark">Generative AI</span>, including
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> LLMs</span> and
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> Retrieval-Augmented Generation (RAG)</span>, alongside building user-friendly interfaces using
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> React and Tailwind CSS</span>.
+            I have deep hands-on experience with{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">LLMs</span>,{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">Hugging Face Transformers</span>,{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">LangChain</span>, and{' '}
+            <span className="font-semibold text-accent-light dark:text-accent-dark">LlamaIndex</span>, including 19+ RAG pipeline implementations
+            across vector stores like FAISS, Pinecone, MongoDB Atlas, and Neo4j.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I also have a solid background in <span className="font-semibold text-accent-light dark:text-accent-dark">web development</span>, and the ability to build and deploy 
-            <span className="font-semibold text-accent-light dark:text-accent-dark"> end-to-end machine learning applications</span>.
+            I'm currently exploring <span className="font-semibold text-accent-light dark:text-accent-dark">LangGraph</span> and
+            multi-agent systems, building on my strong foundation in end-to-end ML pipelines and deployable AI applications.
           </p>
         </motion.div>
 
       </div>
-
     </section>
   );
 };

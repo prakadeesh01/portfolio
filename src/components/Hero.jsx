@@ -26,13 +26,11 @@ const Hero = () => {
           </p>
 
           <p className="text-base sm:text-lg md:text-2xl text-text-light dark:text-text-dark leading-[1.4rem] md:leading-[2rem]">
-            AI/ML Engineer building across
+            Aspiring AI/ML Engineer · MSc Data Science @ University of Surrey
             <span className="hidden md:inline"><br /></span>
-            <span className="font-semibold"> GenAI pipelines</span>,{' '}
-            <span className="font-semibold">video transformers</span>,{' '}
-            <span className="font-semibold">RL agents</span>, and
+            Passionate about NLP, Generative AI, and intelligent systems —
             <span className="hidden md:inline"><br /></span>
-            <span className="font-semibold"> agentic AI systems</span>.
+            from transformers and RAG pipelines to video models and agents.
           </p>
 
           <div className="flex gap-4 mt-6 justify-center md:justify-start">

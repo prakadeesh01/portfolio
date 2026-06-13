@@ -33,32 +33,33 @@ const About = () => {
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
             Hello! I'm <span className="font-semibold text-accent-light dark:text-accent-dark">Prakadeesh K S</span>,
-            an <span className="font-semibold text-accent-light dark:text-accent-dark">MSc Data Science</span> student at the
-            <span className="font-semibold"> University of Surrey</span>, and a Computer Science and Engineering graduate from
-            RMK College of Engineering and Technology. I'm passionate about building intelligent systems that solve real-world problems.
+            an <span className="font-semibold text-accent-light dark:text-accent-dark">MSc Data Science</span> student
+            at the <span className="font-semibold">University of Surrey</span>, and a Computer Science and Engineering
+            graduate from RMK College of Engineering and Technology.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            My work spans four domains:{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">Generative AI & RAG pipelines</span>,{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">Computer Vision</span> (video transformers & action localisation),{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">Reinforcement Learning</span>, and{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">Agentic AI systems</span>.
+            My journey started with a deep interest in <span className="font-semibold text-accent-light dark:text-accent-dark">NLP</span> —
+            working through the ML, Deep Learning, and TensorFlow specializations, then going deep into
+            <span className="font-semibold text-accent-light dark:text-accent-dark"> PyTorch</span> and the
+            <span className="font-semibold text-accent-light dark:text-accent-dark"> Hugging Face ecosystem</span>.
+            As Generative AI reshaped the field, I followed naturally — building
+            <span className="font-semibold text-accent-light dark:text-accent-dark"> LLM-powered applications</span>,
+            RAG pipelines, and working extensively with LangChain and LlamaIndex.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I have deep hands-on experience with{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">LLMs</span>,{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">Hugging Face Transformers</span>,{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">LangChain</span>, and{' '}
-            <span className="font-semibold text-accent-light dark:text-accent-dark">LlamaIndex</span>, including 19+ RAG pipeline implementations
-            across vector stores like FAISS, Pinecone, MongoDB Atlas, and Neo4j.
+            In parallel, I've explored <span className="font-semibold text-accent-light dark:text-accent-dark">Computer Vision</span> —
+            building an end-to-end spatio-temporal action localisation system using VideoMAE and a DETR-style decoder —
+            and <span className="font-semibold text-accent-light dark:text-accent-dark">Reinforcement Learning</span>,
+            with a rigorous study comparing DQN and DDQN agents on LunarLander.
           </p>
 
           <p className="text-sm sm:text-base md:text-xl text-text-light dark:text-text-dark leading-[1.5rem] md:leading-[2rem] mt-4">
-            I'm currently exploring <span className="font-semibold text-accent-light dark:text-accent-dark">LangGraph</span> and
-            multi-agent systems, building on my strong foundation in end-to-end ML pipelines and deployable AI applications.
+            I'm currently diving into <span className="font-semibold text-accent-light dark:text-accent-dark">LangGraph</span> and
+            agentic AI — the next frontier I'm excited to build in.
           </p>
+
         </motion.div>
 
       </div>

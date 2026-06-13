@@ -37,7 +37,7 @@
 - Interactive skill icons
 - Contact section with social links
 - Clean, minimal design
-- Dark mode ready (with future toggle support)
+- Dual mode support 
 
 ## 🛠️ Setup Instructions
 

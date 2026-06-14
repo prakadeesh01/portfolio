@@ -31,18 +31,6 @@ const skillGroups = [
       ],
     },
     {
-      category: "🎬 Computer Vision",
-      items: [
-        { name: "OpenCV", iconPath: "opencv_logo.svg" },
-      ],
-    },
-    {
-      category: "🕹️ Reinforcement Learning",
-      items: [
-        { name: "Gymnasium", iconPath: "gym_logo.svg" },
-      ],
-    },
-    {
       category: "🧠 Agentic AI",
       items: [
         { name: "LangGraph", iconPath: "langgraph_logo.svg" },
@@ -56,6 +44,18 @@ const skillGroups = [
         { name: "JavaScript", iconPath: "js_logo.svg" },
         { name: "HTML", iconPath: "html_logo.svg" },
         { name: "CSS", iconPath: "css_logo.svg" },
+      ],
+    },
+    {
+      category: "🌐 Backend & Tools",
+      items: [
+        { name: "Django", iconPath: "django_logo.svg" },
+        { name: "FastAPI", iconPath: "fastapi_logo.svg" },
+        { name: "Docker", iconPath: "docker_logo.svg" },
+        { name: "Git", iconPath: "git_logo.svg" },
+        { name: "VS Code", iconPath: "vscode_logo.svg" },
+        { name: "Jupyter Notebook", iconPath: "jupyter_logo.svg" },
+        { name: "Google Colab", iconPath: "colab_logo.svg" },
       ],
     },
   ],
@@ -92,15 +92,15 @@ const skillGroups = [
       ],
     },
     {
-      category: "🌐 Backend & Tools",
+      category: "🎬 Computer Vision",
       items: [
-        { name: "Django", iconPath: "django_logo.svg" },
-        { name: "FastAPI", iconPath: "fastapi_logo.svg" },
-        { name: "Docker", iconPath: "docker_logo.svg" },
-        { name: "Git", iconPath: "git_logo.svg" },
-        { name: "VS Code", iconPath: "vscode_logo.svg" },
-        { name: "Jupyter Notebook", iconPath: "jupyter_logo.svg" },
-        { name: "Google Colab", iconPath: "colab_logo.svg" },
+        { name: "OpenCV", iconPath: "opencv_logo.svg" },
+      ],
+    },
+    {
+      category: "🕹️ Reinforcement Learning",
+      items: [
+        { name: "Gymnasium", iconPath: "gym_logo.svg" },
       ],
     },
   ],

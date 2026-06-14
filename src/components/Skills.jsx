@@ -25,36 +25,27 @@ const skillGroups = [
     {
       category: "🤖 Generative AI & LLMs",
       items: [
-        { name: "LangChain", iconPath: null },
-        { name: "LlamaIndex", iconPath: null },
-        { name: "Google Gemini API", iconPath: null },
+        { name: "LangChain", iconPath: "langchain_logo.svg" },
+        { name: "LlamaIndex", iconPath: "llamaindex_logo.svg" },
         { name: "Hugging Face Transformers", iconPath: "hf_logo.svg" },
-        { name: "RAG Pipelines (19+ variants)", iconPath: null },
-        { name: "Embeddings & Vector Search", iconPath: null },
       ],
     },
     {
       category: "🎬 Computer Vision",
       items: [
-        { name: "VideoMAE", iconPath: null },
-        { name: "DETR / Object Detection", iconPath: null },
-        { name: "TimeSFormer / ViViT", iconPath: null },
         { name: "OpenCV", iconPath: "opencv_logo.svg" },
       ],
     },
     {
       category: "🕹️ Reinforcement Learning",
       items: [
-        { name: "DQN / DDQN", iconPath: null },
-        { name: "Gymnasium", iconPath: null },
-        { name: "Experience Replay", iconPath: null },
+        { name: "Gymnasium", iconPath: "gym_logo.svg" },
       ],
     },
     {
       category: "🧠 Agentic AI",
       items: [
-        { name: "LangGraph (exploring)", iconPath: null },
-        { name: "Multi-agent systems", iconPath: null },
+        { name: "LangGraph", iconPath: null },
       ],
     },
     {
@@ -85,18 +76,17 @@ const skillGroups = [
       items: [
         { name: "NLTK", iconPath: "nltk_logo.svg" },
         { name: "spaCy", iconPath: "spacy_logo.svg" },
-        { name: "NER & Transformers", iconPath: null },
       ],
     },
     {
       category: "🗄️ Vector Stores & Databases",
       items: [
-        { name: "FAISS", iconPath: null },
-        { name: "Pinecone", iconPath: null },
-        { name: "MongoDB Atlas", iconPath: null },
-        { name: "AstraDB", iconPath: null },
-        { name: "LanceDB", iconPath: null },
-        { name: "Neo4j (Knowledge Graph)", iconPath: null },
+        { name: "FAISS", iconPath: "faiss_logo.svg" },
+        { name: "Pinecone", iconPath: "pinecone_logo.svg" },
+        { name: "MongoDB Atlas", iconPath: "mongodb_logo.svg" },
+        { name: "AstraDB", iconPath: "datastax_logo.svg" },
+        { name: "LanceDB", iconPath: "lancedb_logo.svg" },
+        { name: "Neo4j (Knowledge Graph)", iconPath: "neo4j_logo.svg" },
         { name: "PostgreSQL", iconPath: "postgresql_logo.svg" },
         { name: "MySQL", iconPath: "mysql_logo.svg" },
       ],

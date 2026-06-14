@@ -45,7 +45,7 @@ const skillGroups = [
     {
       category: "🧠 Agentic AI",
       items: [
-        { name: "LangGraph", iconPath: null },
+        { name: "LangGraph", iconPath: "langgraph_logo.svg" },
       ],
     },
     {

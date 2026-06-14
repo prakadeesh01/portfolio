@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="flex items-center justify-center md:justify-start gap-2 mt-4 text-xl md:text-2xl">
             <MdLocationOn className="text-accent-light dark:text-accent-dark" />
             <span className="text-text-light dark:text-text-dark">
-              Chennai, India
+              Guildford, UK
             </span>
           </div>
 
